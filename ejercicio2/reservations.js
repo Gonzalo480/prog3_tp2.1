@@ -26,10 +26,10 @@ class Reservation {
         const currentDate = new Date();
 
         if (guests <= 0 || reservationDate < currentDate) {
-            return false; // La reserva no es válida
+            return false;
         }
 
-        return true; // La reserva es válida
+        return true; 
     }
 }
 
